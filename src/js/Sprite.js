@@ -3,7 +3,6 @@
  */
 class Sprite {
 	constructor(imgSrc, width, height, x, y) {
-		console.log('new sprite')
 		this.img = new Image();
 		this.img.src = imgSrc || '';
 

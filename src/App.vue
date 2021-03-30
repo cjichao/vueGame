@@ -31,10 +31,10 @@
 			}
 		},
 		mounted() {
-			import('./js/util.js').then(res => {
-				console.log(res.default)
-				// res 即是导出的内容
-			}).catch(err => {})
+			// import('./js/util.js').then(res => {
+			// 	console.log(res.default)
+			// 	// res 即是导出的内容
+			// }).catch(err => {})
 			// console.log(random)
 		},
 		methods: {
